@@ -156,6 +156,32 @@ body {
 
   .editor-wrapper {
     flex-grow: 1;
-    background-color: #fff;
+    background-color: #000;
   }
+}
+
+.run-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  height: 30px;
+  width: 80px;
+  font-size: 17px;
+  border-radius: 5px;
+  background-color: rgb(20, 221, 20);
+  color: black;
+}
+.run-btn:hover{
+  cursor: pointer;
+}
+
+.output-console{
+  background-color: black;
+  color: white;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 18px;
+  height: 229px;
 }
